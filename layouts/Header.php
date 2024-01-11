@@ -11,7 +11,13 @@
             <a class="nav-link active" aria-current="page" href="../">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./Student/">Student</a>
+            <a class="nav-link" href="<?php echo URLROOT; ?>/Student">Student</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="<?php echo URLROOT; ?>/Course">Course</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="<?php echo URLROOT; ?>/Enrollment">Enrollment</a>
           </li>
         </ul>
         <a href="logout.php" class="nav-link">Logout</a>
